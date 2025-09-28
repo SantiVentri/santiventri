@@ -1,0 +1,44 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.titles h1 span {
+    color: var(--PrimaryColor);
+}
+
+.vector {
+    margin-top: 12px;
+    height: auto;
+    max-width: 400px;
+    width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 1200px) and (min-width: 750px) {
+    .vector {
+        max-width: 460px;
+    }
+}
+
+@media (max-width: 750px) and (min-width: 400px) {
+    .vector {
+        max-width: 340px;
+    }
+}
+
+@media (max-width: 400px) {
+    .vector {
+        max-width: 280px;
+    }
+}
