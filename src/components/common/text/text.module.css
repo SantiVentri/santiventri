@@ -1,0 +1,53 @@
+.title {
+    font-size: 38px;
+}
+
+.subtitle {
+    font-size: 28px;
+}
+
+/* .sectionTitle {} */
+
+/* .sectionSubtitle {} */
+
+@media (max-width: 1200px) and (min-width: 750px) {
+    .title {
+        font-size: 42px;
+    }
+
+    .subtitle {
+        font-size: 32px;
+    }
+
+    /* .sectionTitle {} */
+
+    /* .sectionSubtitle {} */
+}
+
+@media (max-width: 750px) and (min-width: 400px) {
+    .title {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        font-size: 24px;
+    }
+
+    /* .sectionTitle {} */
+
+    /* .sectionSubtitle {} */
+}
+
+@media (max-width: 400px) {
+    .title {
+        font-size: 25px;
+    }
+
+    .subtitle {
+        font-size: 20px;
+    }
+
+    /* .sectionTitle {} */
+
+    /* .sectionSubtitle {} */
+}
