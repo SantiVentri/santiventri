@@ -24,6 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="preload"
+          href="/sections/underline.svg"
+          as="image"
+          type="image/svg+xml"
+        />
+      </head>
       <body className={`${poppins.className} ${inter.className}`}>
         {children}
         <Footer />
