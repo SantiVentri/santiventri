@@ -15,6 +15,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: var(--BackgroundColor);
+}
+
 ::-webkit-scrollbar {
   display: none;
 }
