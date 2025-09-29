@@ -33,7 +33,9 @@
         font-size: 24px;
     }
 
-    /* .sectionTitle {} */
+    .sectionTitle {
+        font-size: 24px;
+    }
 
     /* .sectionSubtitle {} */
 }
