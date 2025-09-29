@@ -10,7 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+    gap: 35px;
 }
 
 .titles h1 span {
@@ -25,15 +25,58 @@
     object-fit: contain;
 }
 
+/* Buttons */
+.buttons {
+    display: flex;
+    width: 100%;
+    gap: 25px;
+}
+
+.buttons a {
+    border-radius: 8px;
+    padding: 15px 0;
+    max-width: 400px;
+    width: 100%;
+    font-weight: bold;
+}
+
+.buttons .primaryButton {
+    background-color: var(--PrimaryColor);
+}
+
+.buttons .alternativeButton {
+    background-color: white;
+    color: black;
+}
+
+/* Hover styles */
+@media (hover: hover) {
+    .buttons a:hover {
+        filter: brightness(0.8);
+    }
+}
+
+/* Responsive Styles */
 @media (max-width: 1200px) and (min-width: 750px) {
     .vector {
         max-width: 460px;
+    }
+
+    .buttons {
+        font-size: 20px;
+        gap: 20px;
     }
 }
 
 @media (max-width: 750px) and (min-width: 400px) {
     .vector {
         max-width: 340px;
+    }
+}
+
+@media (max-width: 750px) {
+    .buttons {
+        flex-direction: column;
     }
 }
 
