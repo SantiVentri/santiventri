@@ -20,7 +20,6 @@ export default function HeroSection() {
                         priority
                     />
                 </div>
-                <Subtitle text="portfolio in development..." />
             </div>
         </section>
     )
