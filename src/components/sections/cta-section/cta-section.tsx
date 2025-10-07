@@ -25,7 +25,7 @@ export default function CTASection() {
                     </Link>
                     <Link href="https://github.com/santiventri" target="_blank" className={styles.icon}>
                         <Image
-                            src="/icons/socials/Github.png"
+                            src="/icons/socials/GitHub.png"
                             height={32}
                             width={32}
                             alt='Github Icon'
