@@ -13,6 +13,7 @@ const skills = [
 export default function SkillsSection() {
     return (
         <section className={styles.section} id='skills'>
+            <div className={styles.bubble}></div>
             <div className={styles.container}>
                 <article>
                     <SectionTitle text="The languages, frameworks, and tools I use to bring my ideas to life." />

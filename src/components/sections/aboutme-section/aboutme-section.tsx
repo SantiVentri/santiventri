@@ -5,6 +5,7 @@ import Image from 'next/image';
 export default function AboutMeSection() {
     return (
         <section className={styles.section} id='about-me'>
+            <div className={styles.bubble}></div>
             <div className={styles.container}>
                 <article>
                     <SectionTitle text="Who I am and what I do" />

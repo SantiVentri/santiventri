@@ -1,8 +1,21 @@
 .section {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 80px 0;
+}
+
+.bubble {
+    position: absolute;
+    background-color: var(--PrimaryColor);
+    filter: blur(50px);
+    z-index: -1;
+    height: 500px;
+    width: 500px;
+    border-radius: 500px;
+    top: -220px;
+    left: -320px;
 }
 
 .container {
@@ -36,5 +49,25 @@
     .container img {
         height: 300px;
         width: 300px;
+    }
+}
+
+/* Bubble responsive styles */
+@media (max-width: 1200px) and (min-width: 781px) {
+    .bubble {
+        filter: blur(40px);
+        transform: scale(0.8);
+        top: -250px;
+        left: -200px;
+    }
+}
+
+@media (max-width: 780px) {
+    .bubble {
+        filter: blur(30px);
+        transform: scale(0.6);
+        top: -240px;
+        left: -220px;
+        border: 2px solid red;
     }
 }

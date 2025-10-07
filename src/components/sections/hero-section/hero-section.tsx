@@ -6,6 +6,7 @@ import Link from 'next/link';
 export default function HeroSection() {
     return (
         <section className={styles.section} id='hero-section'>
+            <div className={styles.bubble}></div>
             <div className={styles.container}>
                 <div className={styles.titles}>
                     <Title text={<>Hi, I’m <span>Santino Ventrice</span>,</>} />

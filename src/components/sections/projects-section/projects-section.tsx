@@ -91,7 +91,8 @@ export const projects = [
 
 export default function ProjectsSection() {
     return (
-        <section className={styles.section}>
+        <section className={styles.section} id='projects-section'>
+            <div className={styles.bubble}></div>
             <div className={styles.container}>
                 <div className={styles.titles}>
                     <SectionTitle text="Selected Work" />
