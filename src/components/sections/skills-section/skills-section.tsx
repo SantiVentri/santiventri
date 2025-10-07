@@ -16,7 +16,7 @@ export default function SkillsSection() {
             <div className={styles.bubble}></div>
             <div className={styles.container}>
                 <article>
-                    <SectionTitle text="The languages, frameworks, and tools I use to bring my ideas to life." />
+                    <SectionTitle text="The languages and tools I use to bring my ideas to life." />
                     <p>I usually work with everything that helps me bring my ideas to life: from the frontend and backend to design and databases. I&apos;m always learning and trying new things.</p>
                     <div className={styles.skills}>
                         {skills.map((item, index) => (
