@@ -39,20 +39,11 @@
     gap: 30px;
 }
 
-@media (max-width: 1200px) and (min-width: 750px) {
+@media (max-width: 1200px) and (min-width: 781px) {
     .projectsList {
         grid-template-columns: repeat(2, 1fr);
     }
-}
 
-@media (max-width: 750px) {
-    .projectsList {
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-
-/* Bubble responsive styles */
-@media (max-width: 1200px) and (min-width: 781px) {
     .bubble {
         filter: blur(40px);
         transform: scale(1.2);
@@ -61,6 +52,10 @@
 }
 
 @media (max-width: 780px) {
+    .projectsList {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
     .bubble {
         filter: blur(30px);
         transform: scale(1.2);

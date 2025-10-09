@@ -33,10 +33,17 @@
     gap: 10px;
 }
 
-@media (max-width: 1200px) and (min-width: 780px) {
+@media (max-width: 1200px) and (min-width: 781px) {
     .container img {
         height: 300px;
         width: 300px;
+    }
+
+    .bubble {
+        filter: blur(40px);
+        transform: scale(0.8);
+        top: -250px;
+        left: -200px;
     }
 }
 
@@ -50,19 +57,7 @@
         height: 300px;
         width: 300px;
     }
-}
 
-/* Bubble responsive styles */
-@media (max-width: 1200px) and (min-width: 781px) {
-    .bubble {
-        filter: blur(40px);
-        transform: scale(0.8);
-        top: -250px;
-        left: -200px;
-    }
-}
-
-@media (max-width: 780px) {
     .bubble {
         filter: blur(30px);
         transform: scale(0.6);
