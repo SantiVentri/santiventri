@@ -88,6 +88,13 @@
     }
 }
 
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+    .bubble {
+        top: -220px;
+        right: -200px;
+    }
+}
+
 @media (max-width: 781px) and (min-width: 400px) {
     .vector {
         max-width: 340px;
