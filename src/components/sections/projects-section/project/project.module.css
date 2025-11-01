@@ -29,6 +29,9 @@
 
 .container .headerImage {
     object-fit: cover;
+    image-rendering: auto;
+    backface-visibility: hidden;
+    transform: translateZ(0);
 }
 
 .content {

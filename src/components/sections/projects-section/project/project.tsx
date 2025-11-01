@@ -1,3 +1,5 @@
+"use client"
+
 import Link from 'next/link';
 import styles from './project.module.css';
 import Image from 'next/image';
@@ -23,6 +25,9 @@ export default function Project({ image, start, end, title, description, tools, 
                         fill
                         draggable={false}
                         alt={`${title} header image`}
+                        quality={95}
+                        priority={false}
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                 </div>
                 <div className={styles.content}>
@@ -41,6 +46,7 @@ export default function Project({ image, start, end, title, description, tools, 
                             height={30}
                             width={30}
                             alt={`${item} icon`}
+                            quality={100}
                         />
                     </div>
                 ))}
