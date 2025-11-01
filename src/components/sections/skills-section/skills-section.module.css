@@ -34,19 +34,24 @@
 }
 
 .skills {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 15px;
     gap: 10px;
 }
 
 .skill {
+    text-align: center;
     background-color: white;
     border-radius: 5px;
     padding: 10px 15px;
     color: black;
     font-weight: 500;
     text-wrap: nowrap;
+}
+
+.skill:nth-child(0), .skill:nth-child(1) {
+    grid-column: span 2;
 }
 
 @media (max-width: 1200px) and (min-width: 781px) {
@@ -69,9 +74,18 @@
         align-items: center;
     }
 
+    .skills {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .skill {
         font-size: 14px;
         padding: 8px 12px;
+        grid-column: span 1;
+    }
+
+    .skill:nth-child(0) {
+        grid-column: span 2;
     }
 
     .container img {
