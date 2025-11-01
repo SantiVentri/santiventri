@@ -4,88 +4,18 @@ import Project from './project/project';
 
 export const projects = [
     {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
+        "image": "/sections/projects/Scano-Screenshot.png",
+        "start": "October 2025",
+        "end": "November 2025",
+        "title": "Scano QR Code Generator",
+        "description": "Scano is a free and easy-to-use QR code generator and manager web app that allows users to create custom QR codes for various purposes.",
         "tools": [
             "Figma",
             "Github",
             "Supabase",
-            "NextJS",
+            "Nextjs",
         ],
-        "link": "santiventri.com"
-    },
-    {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
-        "tools": [
-            "Figma",
-            "Github",
-            "Supabase",
-            "NextJS",
-        ],
-        "link": "santiventri.com"
-    },
-    {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
-        "tools": [
-            "Figma",
-            "Github",
-            "Supabase",
-            "NextJS",
-        ],
-        "link": "santiventri.com"
-    },
-    {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
-        "tools": [
-            "Figma",
-            "Github",
-            "Supabase",
-            "NextJS",
-        ],
-        "link": "https://www.santiventri.com"
-    },
-    {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
-        "tools": [
-            "Figma",
-            "Github",
-            "Supabase",
-            "NextJS",
-        ],
-        "link": "https://www.santiventri.com"
-    },
-    {
-        "image": "https://placehold.co/600x340/3454d1/fff/png",
-        "start": "March 2025",
-        "end": "August 2025",
-        "title": "Project Title",
-        "description": "Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna.",
-        "tools": [
-            "Figma",
-            "Github",
-            "Supabase",
-            "NextJS",
-        ],
-        "link": "https://www.santiventri.com"
+        "link": "https://scano.santiventri.com"
     },
 ]
 
