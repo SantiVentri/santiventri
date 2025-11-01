@@ -54,7 +54,9 @@
         font-size: 20px;
     }
 
-    /* .sectionTitle {} */
+    .sectionTitle {
+        font-size: 20px;
+    }
 
     /* .sectionSubtitle {} */
 }
