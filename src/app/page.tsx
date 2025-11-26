@@ -10,7 +10,7 @@ export default function Home() {
       <HeroSection />
       <AboutMeSection />
       <SkillsSection />
-      <ProjectsSection />
+      <ProjectsSection limit={6} />
       <CTASection />
     </main>
   );

@@ -1,6 +1,7 @@
 import { SectionSubtitle, SectionTitle } from '@/components/common/text/text';
 import styles from './projects-section.module.css';
 import Project from './project/project';
+import Link from 'next/link';
 
 export const projects = [
     {
@@ -34,7 +35,7 @@ export const projects = [
     },
 ]
 
-export default function ProjectsSection() {
+export default function ProjectsSection({ limit }: { limit?: number }) {
     return (
         <section className={styles.section} id='projects-section'>
             <div className={styles.bubble}></div>
@@ -44,10 +45,13 @@ export default function ProjectsSection() {
                     <SectionSubtitle text="Some of the projects I'm most proud of. From idea to final product." />
                 </div>
                 <div className={styles.projectsList}>
-                    {projects.map((item, idx) => (
-                        <Project key={idx} {...item} />
+                    {projects.slice(0, limit ?? projects.length).map((project, index) => (
+                        <Project key={index} {...project} />
                     ))}
                 </div>
+                {limit && projects.length > limit && (
+                    <Link className={styles.primaryButton} href="/projects">See all projects</Link>
+                )}
             </div>
         </section>
     )
