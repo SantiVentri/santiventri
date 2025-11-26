@@ -13,9 +13,24 @@ export const projects = [
             "Figma",
             "Github",
             "Supabase",
+            "CSS",
             "Nextjs",
         ],
         "link": "https://scano.santiventri.com"
+    },
+    {
+        "image": "/sections/projects/GudNewsOnly-Screenshot.png",
+        "start": "November 2025",
+        "end": "November 2025",
+        "title": "GudNewsOnly News Website",
+        "description": "GudNewsOnly is a news website that provides users with positive news, articles, and stories from around the world to promote optimism and well-being.",
+        "tools": [
+            "Figma",
+            "Github",
+            "CSS",
+            "Nextjs",
+        ],
+        "link": "https://gudnewsonly.santiventri.com"
     },
 ]
 
