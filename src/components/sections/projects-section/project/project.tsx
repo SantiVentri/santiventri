@@ -32,7 +32,9 @@ export default function Project({ image, start, end, title, description, tools, 
                 </div>
                 <div className={styles.content}>
                     <div className={styles.titles}>
-                        <p className={styles.timeframe}>{start} - {end}</p>
+                        <p className={styles.timeframe}>
+                            {start == end ? start : `${start} - ${end}`}
+                        </p>
                         <h1>{title}</h1>
                     </div>
                     <p className={styles.description}>{description}</p>
