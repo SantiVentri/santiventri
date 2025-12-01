@@ -35,6 +35,21 @@ export const projects = [
         ],
         "link": "https://gudnewsonly.santiventri.com"
     },
+    {
+        "image": "/sections/projects/Trello-Clone-Screenshot.png",
+        "active": true,
+        "start": "November 2025",
+        "end": "December 2025",
+        "title": "Trello Clone",
+        "description": "A Trello clone web application that allows users to create boards, lists, and cards to manage tasks and projects. Made for learning purposes.",
+        "tools": [
+            "Figma",
+            "Github",
+            "CSS",
+            "Nextjs",
+        ],
+        "link": "https://trello.santiventri.com"
+    },
 ]
 
 export default function ProjectsSection({ limit }: { limit?: number }) {
