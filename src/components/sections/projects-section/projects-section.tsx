@@ -6,6 +6,7 @@ import Link from 'next/link';
 export const projects = [
     {
         "image": "/sections/projects/Scano-Screenshot.png",
+        "active": true,
         "start": "October 2025",
         "end": "November 2025",
         "title": "Scano QR Code Generator",
@@ -21,6 +22,7 @@ export const projects = [
     },
     {
         "image": "/sections/projects/GudNewsOnly-Screenshot.png",
+        "active": true,
         "start": "November 2025",
         "end": "November 2025",
         "title": "GudNewsOnly News Website",
@@ -45,7 +47,7 @@ export default function ProjectsSection({ limit }: { limit?: number }) {
                     <SectionSubtitle text="Some of the projects I'm most proud of. From idea to final product." />
                 </div>
                 <div className={styles.projectsList}>
-                    {projects.slice(0, limit ?? projects.length).map((project, index) => (
+                    {projects.filter(project => project.active).slice(0, limit ?? projects.length).map((project, index) => (
                         <Project key={index} {...project} />
                     ))}
                 </div>
