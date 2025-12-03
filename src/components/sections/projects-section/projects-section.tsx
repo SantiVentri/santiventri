@@ -50,6 +50,20 @@ export const projects = [
         ],
         "link": "https://trello.santiventri.com"
     },
+    {
+        "image": "/sections/projects/Letterboxd-Clone-Screenshot.png",
+        "active": true,
+        "start": "December 2025",
+        "end": "N/A",
+        "title": "Letterboxd Clone",
+        "description": "A Letterboxd clone web application that allows users to rate, review movies and add them to custom lists. Made for learning purposes using the TMDB API.",
+        "tools": [
+            "Github",
+            "CSS",
+            "React",
+        ],
+        "link": "https://letterboxd.santiventri.com"
+    },
 ]
 
 export default function ProjectsSection({ limit }: { limit?: number }) {
