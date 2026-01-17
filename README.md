@@ -31,10 +31,16 @@ Permite **crear, gestionar y escanear códigos QR** de manera simple e intuitiva
 Aplicación web desarrollada con **Next.js**, **CSS Modules** y diseñada en **Figma**.
 Clon de Trello que permite crear y gestionar tareas, listas en un tablero. Funciones Drag & Drop incorporadas. Creado con fines de aprendizaje. [Ver demo online](https://trello.santiventri.com)
 
+### [🍿 Binge Quest](https://github.com/SantiVentri/binge-quest)
+
+Aplicación web desarrollada con **Next.js**, **CSS Modules**, usando **Supabase**, diseñada en **Figma** y hosteada en **Vercel**.
+[En desarrollo]
+
 <br>
 
 🔗 [Portafolio](https://santiventri.com)
 🔗 [LinkedIn](https://linkedin.com/in/santinoventrice)
+
 
 
 
