@@ -36,10 +36,15 @@ Clon de Trello que permite crear y gestionar tareas, listas en un tablero. Funci
 
 Aplicación web desarrollada con **Next.js**, **CSS Modules**, usando **Supabase**, diseñada en **Figma** y hosteada en **Vercel**. [Ver demo online](https://binge.santiventri.com)
 
+### [🌱 Environment Simulator](https://github.com/santiventri/environment-simulator)
+
+Simple simulador de ecosistema con animales y plantas. Desarrollado en **Python** usando **Programación Orientada a Objectos**.
+
 <br>
 
 🔗 [Portafolio](https://santiventri.com)
 🔗 [LinkedIn](https://linkedin.com/in/santinoventrice)
+
 
 
 
