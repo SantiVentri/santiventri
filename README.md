@@ -25,10 +25,9 @@
 
 ## 🧩 Proyectos destacados
 
-### [📱 Scano – QR Code Generator](https://github.com/SantiVentri/Scano-QR-Generator)
+### [🎮 Recreo Picado](https://github.com/SantiVentri/Recreo-Picado)
 
-Aplicación web desarrollada con **Next.js**, **CSS Modules**, **Supabase** y diseñada en **Figma**.
-Permite **crear, gestionar y escanear códigos QR** de manera simple e intuitiva, con un diseño limpio y una experiencia optimizada para el usuario. [Ver demo online](https://scano.santiventri.com)
+Juego RPG basado en turnos desarrollado en Java usando interfaces gráficas con Swing como trabajo práctico de POO. Batallas 4v4 con sistema de niveles, efectos, recompensas, tienda y más.
 
 ### [📦 Trello Clone](https://github.com/SantiVentri/trello-clone)
 
